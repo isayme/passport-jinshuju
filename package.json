@@ -1,0 +1,32 @@
+{
+  "name": "passport-jinshuju",
+  "version": "0.0.1",
+  "description": "jinshuju authentication strategy for Passport and Node.js.",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isayme/passport-jinshuju.git"
+  },
+  "keywords": [
+    "jinshuju",
+    "oauth2",
+    "passport",
+    "authentication"
+  ],
+  "author": "iSayme <isaymeorg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isayme/passport-jinshuju/issues"
+  },
+  "homepage": "https://github.com/isayme/passport-jinshuju",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "passport-oauth2": "^1.2.0"
+  }
+}
