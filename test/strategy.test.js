@@ -1,9 +1,9 @@
 var expect = require('chai').expect;
-var ProcessonStrategy = require('../lib').Strategy;
+var JinshujuStrategy = require('../lib').Strategy;
 
 describe('Strategy', function() {
   it('should be named jinshuju', function() {
-    var strategy = new ProcessonStrategy({
+    var strategy = new JinshujuStrategy({
       clientID: 'id',
       clientSecret: 'sec'
     }, function() {});

@@ -11,12 +11,12 @@ using the OAuth 2.0 API.
 
 #### Configure Strategy
 
-The Processon authentication strategy authenticates users using a Processon account
+The Jinshuju authentication strategy authenticates users using a Jinshuju account
 and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which accepts
 these credentials and calls `done` providing a user, as well as `options`
 specifying a client ID, client secret, and callback URL.
 
-    passport.use(new ProcessonStrategy({
+    passport.use(new JinshujuStrategy({
         clientID: JINSHUJU_CLIENT_ID,
         clientSecret: JINSHUJU_CLIENT_SECRET,
         callbackURL: "http://127.0.0.1:3000/auth/jinshuju/callback"
